@@ -1,10 +1,10 @@
-# 🧵 Chapter: Process-Based Parallel Palindrome Checking in Python
+# Chapter03: Process-Based Parallel Palindrome 
 
 This chapter demonstrates how Python’s **`multiprocessing`** module works using a real-world string example — checking whether words are palindromes using the helper function **`reverse_and_check_palindrome()`** from `reversed_string.py`.
 
 ---
 
-## ⚙️ 1. reversed_string.py
+##  1. reversed_string.py
 
 ### **Purpose**
 
@@ -40,7 +40,7 @@ This function is imported and used in all subsequent multiprocessing examples.
 
 ---
 
-## ⚙️ 2. naming_processes.py
+##  2. naming_processes.py
 
 ### **Purpose**
 
@@ -83,7 +83,7 @@ Both executed the palindrome task concurrently, producing identical outputs.
 
 ---
 
-## ⚙️ 3. spawning_processes.py
+##  3. spawning_processes.py
 
 ### **Purpose**
 
@@ -120,7 +120,7 @@ Palindrome detection scaled correctly across all instances.
 
 ---
 
-## ⚙️ 4. killing_processes.py
+##  4. killing_processes.py
 
 ### **Purpose**
 
@@ -161,7 +161,7 @@ Exit code `0` confirms successful execution and clean termination.
 
 ---
 
-## ⚙️ 5. run_background_processes_no_daemons.py
+##  5. run_background_processes_no_daemons.py
 
 ### **Purpose**
 
@@ -194,7 +194,7 @@ Non-daemon processes completed fully, showing that daemonization did not interru
 
 ---
 
-## ⚙️ 6. run_background_processes.py
+## 6. run_background_processes.py
 
 ### **Purpose**
 
@@ -216,7 +216,7 @@ Starting NO_background_process
 NO_background_process: python → nohtyp | Palindrome: False
 ...
 Exiting NO_background_process
-Main process finished. ⏱️ Ended at 1.22s
+Main process finished.  Ended at 1.22s
 ```
 
 ### **Observation**
@@ -226,7 +226,7 @@ Execution time demonstrates main-process dependency of daemons.
 
 ---
 
-## ⚙️ 7. processes_barrier.py
+##  7. processes_barrier.py
 
 ### **Purpose**
 
@@ -261,7 +261,7 @@ The lock ensured clean, non-overlapping output printing.
 
 ---
 
-## ⚙️ 8. process_pool.py
+##  8. process_pool.py
 
 ### **Purpose**
 
@@ -294,7 +294,7 @@ Each process computed palindrome checks concurrently, significantly improving ef
 
 ---
 
-## 🧮 Summary Table
+##  Summary Table
 
 | Script                                 | Purpose                                 | Success | Key Observation                                        |
 | :------------------------------------- | :-------------------------------------- | :-----: | :----------------------------------------------------- |
@@ -309,7 +309,7 @@ Each process computed palindrome checks concurrently, significantly improving ef
 
 ---
 
-## 🧩 Conclusion
+##  Conclusion
 
 Through palindrome-based tasks, this chapter demonstrated key multiprocessing concepts:
 
@@ -321,7 +321,7 @@ Through palindrome-based tasks, this chapter demonstrated key multiprocessing co
 
 ---
 
-## 🧠 Overall Learning
+## Overall Learning
 
 Python’s `multiprocessing` module provides powerful tools for **parallelizing CPU-bound tasks** like palindrome checking.
 Understanding **naming, synchronization, daemonization, and pooling** is essential to designing efficient, scalable multiprocessing applications.
