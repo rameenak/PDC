@@ -1,4 +1,4 @@
-# Code 1: Reseerve the strings and palindrome checker
+
 
 def reverse_and_check_palindrome(s):
     reversed_s = s[::-1]
